@@ -1,0 +1,15 @@
+body{
+	margin: 0px;
+	overflow: hidden;
+}
+
+canvas{
+	background-color: black;
+}
+
+table{
+	position: absolute;
+	background-color: transparent;
+	color: white;
+	width: 100%;
+}

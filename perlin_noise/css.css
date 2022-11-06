@@ -1,0 +1,19 @@
+html{
+	overflow: hidden;
+}
+
+body{
+	margin : 0;
+}
+
+button{
+	position: absolute;
+	font-size: xx-large;
+	border-radius: 	5px;
+}
+
+span{
+	position: absolute;
+	font-size: xx-large;
+	top: 50px;
+}

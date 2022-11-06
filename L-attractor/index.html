@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Lorenz Attractor </title>
+	<meta charset="utf-8" lang='ko'>
+	<meta name='author' content="erados">
+	<meta name='date' content="2017-04-03">
+	<style type="text/css">
+		body{margin: 0; overflow: hidden;}
+	</style>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55219535-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-55219535-2');
+</script>
+
+</head>
+<body>
+	<div id="control">
+		<span> 시그마 : </span>
+		<input type="range" id="sigma">
+		<span> 로 : </span>
+		<input type="range" id="rho">
+		<span> 베타 : </span>
+		<input type="range" id="beta">
+		<span> 스케일 : </span>
+		<input type="range" id="scale">
+		<span> 점 크기 : </span>
+		<input type="range" id="size">
+		<span> 점 수 : </span>
+		<input type="range" id="num">
+		<span> 각속도 : </span>
+		<input type="range" id="ang_speed">
+		<br>
+		<button id="x_on">x축 회전 on/off</button>
+		<button id="y_on">y축 회전 on/off</button>
+		<button id="z_on">z축 회전 on/off</button>
+		<button id="move">움직임 on/off</button>
+		<button id="reset">초기화</button>
+
+	</div>
+	<canvas id="canvas" style="border: 1px solid black"></canvas>
+</body>
+<script type="text/javascript" src='common.js'></script>
+<script type="text/javascript" src='point.js'></script>
+<script type="text/javascript"> setup(); </script>
+</html>

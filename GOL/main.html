@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conway's Game of Life</title>
+	<link rel="stylesheet" type="text/css" href="./common.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55219535-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-55219535-2');
+</script>
+
+</head>
+<body onload="test();">
+
+<canvas id="canvas-html" width="100" height="100" style="background-color: ghostwhite;" onmousedown="cnvs_getCoordinates(event)" onkeydown="move()"></canvas>
+
+</body>
+	<script type="text/javascript" src="./common.js"></script>
+</html>

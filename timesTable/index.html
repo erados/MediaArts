@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Times Table</title>
+	<meta charset="utf-8" lang="ko">
+	<meta name="author" content="erados.2017.4.7">
+	<link rel="stylesheet" type="text/css" href="common.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55219535-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-55219535-2');
+</script>
+
+</head>
+<body>
+	<div>
+		<input type="range" id="timeslider" step="0.01" min="-10" max="100">
+		<span id="timespan"> 0 </span>
+		<button id="power">On / Off</button>
+	</div>
+	<canvas id="canvas" ></canvas>
+	<embed width="600" height="100" volume='1' src="https://www.youtube.com/v/WctGKfiSEMA?ecver=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+</body>
+<script type="text/javascript" src="main.js"></script>
+
+<script type="text/javascript">
+	setUp();
+</script>
+</html>
