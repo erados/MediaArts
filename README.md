@@ -1,5 +1,5 @@
 # MediaArts
-각종 미디어 아트 프로젝트
+각종 미디어 아트 프로젝트 [[web]](https://erados.github.io/MediaArts/)
 
 ## [blackhole](https://github.com/erados/MediaArts/tree/main/blackhole)
 예전에 우주의 신비 등의 제목으로 장엄한 음악과 함께 마우스로 별이 회전하며 모이는 듯한 느낌을 주는 swf 기반 게임?을 본 적이 있다.
